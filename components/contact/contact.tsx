@@ -1,4 +1,4 @@
-import { faPhone } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { IconWrapper } from "../header/header.styles"
 import { Wrapper } from "./contact.styles"
@@ -15,6 +15,10 @@ export const Contact = () => {
       <IconWrapper href="https://instagram.com/makeup__pleasure" target="_blank">
         <FontAwesomeIcon icon={faInstagram} fontSize={20} color="#fdf3f3" />
         makeup__pleasure
+      </IconWrapper>
+      <IconWrapper href="mailto:julia_budziak@wp.pl" target="_blank">
+        <FontAwesomeIcon icon={faEnvelope} fontSize={20} color="#fdf3f3" />
+        julia_budziak@wp.pl
       </IconWrapper>
       <img src="/contact.jpg" alt="" role="presentation" />
     </Wrapper>
