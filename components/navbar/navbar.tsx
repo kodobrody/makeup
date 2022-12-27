@@ -8,10 +8,8 @@ import { Container, MenuWrapper, Wrapper } from "./navbar.styles"
 
 export const Navbar = () => {
   const router = useRouter();
-  console.log(router.asPath);
   const scrollPosition = useScrollPosition();
 
-  console.log(scrollPosition)
 
   return (
     <Wrapper className={scrollPosition > 0 ? 'scrolled' : ''}>
