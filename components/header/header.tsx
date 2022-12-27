@@ -18,6 +18,10 @@ export const Header = () => {
             <FontAwesomeIcon icon={faInstagram} fontSize={20} color="#fdf3f3" />
             makeup__pleasure
           </IconWrapper>
+          <IconWrapper href="mailto:julia_budziak@wp.pl" target="_blank">
+            <FontAwesomeIcon icon={faEnvelope} fontSize={20} color="#fdf3f3" />
+            julia_budziak@wp.pl
+          </IconWrapper>
         </LeftWrapper>
         <img src="/main.jpg" alt="" role="presentation" />
       </Container>
