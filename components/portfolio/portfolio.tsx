@@ -41,7 +41,7 @@ export const Portfolio = ({
           />
         ))}
       </Container>
-      <Link href="/services">Pełne portfolio</Link>
+      <Link href="/portfolio">Pełne portfolio</Link>
       {imageFullscreen && (
         <Lightbox
           mainSrc={`${imageFullscreen.image}?w=1200&q=90`}
