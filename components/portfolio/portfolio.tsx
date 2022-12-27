@@ -26,7 +26,7 @@ export const Portfolio = ({
     <Wrapper isPage={!!isPage}>
       <span>Portfolio</span>
       <Container>
-        {images.slice(0, 6).map(({ image }) => (
+        {images.slice(0, isPage ? 9999999 : 6).map(({ image }) => (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={`${image.url}?w=300&fm=webp&q=60`}

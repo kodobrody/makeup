@@ -16,6 +16,7 @@ export const Contact = () => {
         <FontAwesomeIcon icon={faInstagram} fontSize={20} color="#fdf3f3" />
         makeup__pleasure
       </IconWrapper>
+      <img src="/contact.jpg" alt="" role="presentation" />
     </Wrapper>
   )
 }
