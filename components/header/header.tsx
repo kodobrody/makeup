@@ -1,4 +1,4 @@
-import { faPhone } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Background, Container, IconWrapper, LeftWrapper, Wrapper } from "./header.styles"
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
