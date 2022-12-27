@@ -25,10 +25,6 @@ export const Services = ({
       <Container>
 
         {services.slice(0, 4).map(({ id, ...service }) => <Service {...service} key={id} />)}
-        <Service title="Depilation" description="Would you like to get rid of your unwanted hair now, contact us now" priceMin={120} priceMax={150} />
-        <Service title="Depilation" description="Would you like to get rid of your unwanted hair now, contact us now" priceMin={120} priceMax={150} />
-        <Service title="Depilation" description="Would you like to get rid of your unwanted hair now, contact us now" priceMin={120} priceMax={150} />
-        <Service title="Depilation" description="Would you like to get rid of your unwanted hair now, contact us now" priceMin={120} priceMax={150} />
       </Container>
       <Link href="/services">Więcej o usługach</Link>
     </Wrapper>
