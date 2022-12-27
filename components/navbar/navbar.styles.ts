@@ -45,8 +45,8 @@ export const Container = styled.div`
   padding: 8px 40px;
 
   >a {
-    font-family: 'Libre Baskerville', sans-serif;
-    font-weight: 700;
+    font-weight: 300;
+    font-family: 'Cinzel', sans-serif;
     font-size: 32px;
     text-decoration: none;
     color: #3b3030;

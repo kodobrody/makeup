@@ -23,6 +23,7 @@ export const Container = styled.div`
     height: 360px;
     min-height: 360px;
     min-width: 360px;
+    object-fit: cover;
   }
 
   @media  (max-width: 1280px) {
@@ -50,7 +51,8 @@ export const LeftWrapper = styled.div`
 
   span:first-of-type {
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 300;
+    font-family: 'Cinzel', sans-serif;
   }
 
   span:last-of-type {

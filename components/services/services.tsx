@@ -19,6 +19,7 @@ export const Services = ({
   services,
   isPage
 }: ServicesProps) => {
+  console.log(services)
   return (
     <Wrapper isPage={!!isPage}>
       <span>Usługi</span>

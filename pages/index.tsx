@@ -48,6 +48,8 @@ const ALL_SERVICES_QUERY = `query AllServicesQuery{
   allServices(first: 4) {
     title
     description
+    priceMin
+    priceMax
     icon {
       url
       blurhash

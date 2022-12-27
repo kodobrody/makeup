@@ -19,7 +19,7 @@ export const Header = () => {
             makeup__pleasure
           </IconWrapper>
         </LeftWrapper>
-        <img src="" alt="" role="presentation" />
+        <img src="/main.jpg" alt="" role="presentation" />
       </Container>
       {/*<Background />*/}
     </Wrapper>
