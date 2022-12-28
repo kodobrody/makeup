@@ -19,7 +19,7 @@ const PortfolioPage = ({ images }: PortfolioPageProps) => {
 export default PortfolioPage
 
 const ALL_IMAGES_QUERY = `query AllImagesQuery{
-  allPortfolioimages {
+  allPortfolioimages(first: 100) {
     image {
       url
       blurhash
