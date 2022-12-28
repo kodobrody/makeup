@@ -20,7 +20,7 @@ const ServicesPage = ({ services }: ServicesPageProps) => {
 export default ServicesPage
 
 const ALL_SERVICES_QUERY = `query AllServicesQuery{
-  allServices {
+  allServices(first: 100) {
     title
     description
     priceMin
