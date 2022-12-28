@@ -62,7 +62,7 @@ export const Wrapper = styled.div<WrapperProps>`
   @media (max-width: 860px) {
     width: 620px;
 
-    div {
+    >div {
       gap: 60px;
       justify-content: center;
       div:nth-of-type(4) {
