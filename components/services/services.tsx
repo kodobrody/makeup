@@ -24,7 +24,7 @@ export const Services = ({
       <span>Usługi</span>
       <Container>
 
-        {services.slice(0, 4).map(({ id, ...service }) => <Service {...service} key={id} />)}
+        {services.slice(0, isPage ? 99999999 : 4).map(({ id, ...service }) => <Service {...service} key={id} />)}
       </Container>
       <Link href="/services">Więcej o usługach</Link>
     </Wrapper>
