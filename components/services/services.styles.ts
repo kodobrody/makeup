@@ -106,6 +106,7 @@ export const ServiceWrapper = styled.div`
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 32px;
+    text-align: center;
   }
 
   span:nth-of-type(2) {
